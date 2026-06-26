@@ -4,7 +4,7 @@ services:
     container_name: finance_db
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: OPS
+      POSTGRES_PASSWORD: password
       POSTGRES_DB: finance_tracker
     ports:
       - "5432:5432"
